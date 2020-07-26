@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Royal</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="rel">
+		<div id="p">
+				<span onclick="show('Page1');">Home</span>
+		</div>		
+		<div id="p1">
+			<span onclick="show('Page2');">Registration Form</span>
+		</div>
+		<div id="p2">
+			<span onclick="show('Page3');">Show Registrants</span>
+		</div>
+		
+		<div id="Page1" class="page">
+			<div id="Home">
+				<img src="7.jfif" alt="home"
+				width="1257" height="665">
+				<h1>Register now to Participate in India's Singing Star Competition</h1>
+				<h2>Venue</h2>
+				<h3>Korakendra Ground No.2,Borivali(W)</h3>
+				<h4>Sunday.7th September,2020<br>
+					&nbsp; &nbsp; &nbsp; &nbsp; 2.00pm Onwards</h4>
+				<h5>&nbsp; &nbsp;1BATTLE<br>1CHAMPION</h5>	
+				<h6>Rs5,00,000 Prize</h6>
+				<h7>Arman Malik</h7>
+				<h8>Neha Kakkar</h8>
+				<h9>Arjit Singh</h9>				
+			</div>
+			<div id="neha">
+				<img src="neha3.png" alt="Neha"
+				width="400" height="220">
+			</div>
+			<div id="arman">
+				<img src="armanmalik.png" alt="Arman"
+				width="370" height="250">
+			</div>
+			<div id="arjit">
+				<img src="arjit.png" alt="Arjit"
+				width="230" height="225">
+			</div>
+			
+		</div>
+		<div id="Page2" class="page">
+			<img src="7.jfif" alt="home"
+				width="1257" height="665">
+				<div id="Registration">
+					<h1>Registration Form</h1>
+				</div>
+				<form name="form" id="form1">
+					<div class="input">Name: <input id="name" name="name1" type="text" placeholder="Enter full name.."></div>
+					<span id="nam1"></span>
+					<div class="input">
+						Gender: <input id="gender" type="radio" name="r" value="male">Male
+								<input type="radio" name="r" value="female">Female</div>
+						<span id="gen1"></span>
+					<div class="input">Email Id: <input id="email" name="email1" type="text" placeholder="Email Id.."></div>	
+					<span id="mail"></span>
+					<div class="input">Age: <input id="age" name="age1" type="text" placeholder="Your age.."></div>
+					<span id="ag"></span>
+					<div class="input">Mobile No: <input id="mobile" name="mobile1" type="text" placeholder="mobile no.."></div>
+					<span id="mob"></span>
+					<div class="input">
+						State:
+						<select id="state" name="state1">
+							<option value =""disabled selected hidden>Select state</option>
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="Gujarat">Gujarat</option>
+							<option value="Rajasthan">Rajasthan</option>
+							<option value="Karnatak">Karnatak</option>
+							<option value="Jammu&Kashmir">Jammu&Kashmir</option>
+							<option value="Uttar Pradesh">Uttar Pradesh</option>
+							<option value="Punjab">Punjab</option>
+							<option value="Madhya Pradesh">Madhya Pradesh</option>
+						</select></div>
+						<span id="stat"></span>
+					<div class="input">Comment: <input id="comment" name="comment1" type="text" placeholder="Comment here if any issue.."></div>
+					<span id="com"></span>
+					<div class="input"><input id="term" type="checkbox" name="term1">I agree to Terms & conditions</div>
+					<span id="ter"></span>	
+					<!--<div class="input"><input id= "register" type="submit" value="Register"></div>-->
+					<div class="input"><input type="submit" value="Submit" id="register"></div>	
+			</form>
+		
+		</div>
+		<div id="Page3" class="page">
+			<img src="7.jfif" alt="REgistrants"
+				width="1257" height="665">
+				<div id="Registrants">
+					<h1>Registrants</h1>
+				</div>
+			<table id="display">
+				<tr>
+					<th>Name</th>
+					<th>Gender</th>
+					<th>Email Id</th>
+					<th>Age</th>
+					<th>Mobile No.</th>
+					<th>State</th>
+					<th>Comment</th>
+				</tr>
+			</table>
+		</div>
+
+		<div id="block"></div>
+		<div id="logo">
+			<img src="5.jpg" alt="hotel"
+			width="907" height="230">
+		</div>
+		<div id="logo1">
+			<img src="3.png" alt="royal"
+			width="350" height="230">
+		</div>
+		<div id="title">
+			<h1>SINGING STAR</h1>
+			<h2>INDIA'S</h2>
+		</div>
+		<div id="footer">
+			<p><a href="https://www.instagram.com/rohitshevate/">All copyrights Reserved &copy; 2020</p>
+				
+				
+		</div>
+	</div>
+	<script src="script.js">
+	</script>
+
+</body>
+</html>
